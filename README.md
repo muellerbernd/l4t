@@ -73,3 +73,8 @@ make config # copy custom kernel defconfig
 make kernel # build kernel
 make install # install custom kernel
 ```
+
+# Summary of configs
+- [custom-kern.config](./custom-kern.config)
+  - support for Telit FN990 5G Modem
+  - Logitech Gamepad support `CONFIG_LOGITECH_FF=y`
